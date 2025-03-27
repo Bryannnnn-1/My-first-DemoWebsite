@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veriscope</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <a href="#home"><img src="logo.png" alt="Logo" class="logo" id="home"></a>
+        <button class="hamburger-menu" onclick="toggleMenu(this)"></button>
+        <nav>
+            <ul>
+                <li><a href="#home" style="font-size:13px;">HOME</a></li>
+                <li><a href="#news" style="font-size:13px;">LATEST NEWS</a></li>
+                <li><a href="#sponsors" style="font-size:13px;">SPONSORS & PARTNERS</a></li>
+                <li><a href="#about" style="font-size:13px;">ABOUT US</a></li>
+                <li><a href="#faq-container" style="font-size:13px;">FAQ</a></li>
+                <li><a href="#sign-button" style="font-size:13px;">SIGN IN/SIGN UP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">Veriscope</h1>
+            <div class="container">
+                <p class="subtitle">Veriscope is your superhuman fact-checker.</p>
+                <div class="input-box">
+                    <textarea class="input-field" placeholder="Ask Veriscope to scan anything..."></textarea>
+                    <div class="actions">
+                        <button class="action-btn"><img src="attach.png" class="attach"></button>
+                        <button class="submit-image"><strong>&#10095;</strong></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>What is Veriscope?</h2>
+            <div class="about-content">
+                <p><span class="highlight">Veriscope</span> is a platform dedicated to the analyzing, verifying and exposing fake content, focusing on users aged 16-19 but accessible to all age groups. Our platform uses advanced <strong>AI-driven technology</strong> to verify online content, combating misinformation by analyzing texts, images, and video from diverse sources.</p>
+                <p>Veriscope collaborates with fact-checkers and verified news sources such as the British Broadcasting Corporation (BBC News), Sky News, Cable News Network (CNN) etc; contributing to transparency and ensuring that trusted information is genuinely reliable.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <div class="popup-btn">
+        <img src="logo hover.png" alt="Open Popup" class="popup-image">
+
+        <div class="popup-container">
+            <div class= "popup-writeup" ><strong>Click for extensive features!</strong></div>
+          </div>
+      </div>
+
+        <section>
+        <div class="guide-container">
+        <h1>How It Works?</h1>
+        <br>
+        <br>
+        <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+                <h2>Capture and Upload Content</h2>
+                <p>Have you come across content that seems suspicious? Simply copy and paste it in the action panel for scanning.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+                <h2>Veriscope Scans the Content</h2>
+                <p>Veriscope will analyze and scan the uploaded content, giving you the probability of the uploaded content being accurate or false.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+                <h2>Other Features</h2>
+                <p>You can allow Veriscope to run in the background on your device to automatically scan content. Click the overlay button in the bottom right corner to explore more features, such as the text-to-speech tool, screen recording and background content scanning. Veriscope will ask for permission to enable this features. </p>
+            </div>
+        </div>
+        <hr>
+        <div class="step">
+            <div class="step-number">4</div>
+            <div class="step-content">
+                <h2>Latest Updates and News</h2>
+                <p>We collaborate with verified news sources to provide accurate and current news. You can access the news below.</p>
+            </div>
+        </div>
+    </div>
+        </section>
+    <br>
+
+            <hr>
+      
+        <div class="cta">
+            <h4>LATEST NEWS</h4>
+        </div>
+
+        <div class="news-grid">
+        <div class="news-item">
+            <img src="bdc.news.jpg" alt="News Image">
+            <a href="https://barkingdagenhamcollege.ac.uk/about/college-events/rush-green-campus-open-event-26-april-2025">Rush Green Campus Open Event (26 April 2025)<br>Barking & Dagenham College, Dagenham Road, Dagenham, Romford, UK</a>
+            <p>BDC | <span class="category">UK</span></p>
+        </div>
+        
+        <div class="news-item">
+            <img src="Raphinha.png" alt="News Image">
+            <a href="https://www.bbc.co.uk/sport/football/articles/c07zvx122jjo">From almost quitting football to Ballon d'Or hope - Raphinha's rebirth</a>
+            <p>BBC News | <span class="category">Football</span></p>
+        </div>
+            
+        <div class="news-item">
+            <img src="black-widow.webp" alt="News Image">
+            <a href="https://edition.cnn.com/2025/03/11/entertainment/scarlett-johansson-mcu-black-widow/index.html">Scarlett Johansson sounds very certain she will never return to the MCU as Black Widow: ‘Let it go’</a>
+            <p>CNN | <span class="category">Ents & Arts</span></p>
+        </div>
+        
+        <div class="news-item">
+            <img src="roblux.png" alt="News Image">
+            <a href="https://www.bbc.co.uk/news/articles/c5yrjkl7dd6o">Keep kids off Roblox if you're worried, its CEO tells parents</a>
+            <p>BBC News| <span class="category">Tech & Gaming</span></p>
+        </div>
+        
+        <div class="news-item">
+            <img src="skynews-yung-filly.jpg" alt="News Image">
+            <a href="https://news.sky.com/story/yung-filly-british-youtuber-and-rapper-denies-sexual-assault-charges-in-australia-13326313">British YouTuber and rapper Yung Filly denies sexual assault charges</a>
+            <p>Sky News | <span class="category">Ents & Arts</span></p>
+        </div>
+        
+        <div class="news-item">
+            <img src="skynews-keir-starmer.png" alt="News Image">
+            <a href="https://news.sky.com/story/will-starmer-reap-the-rewards-of-not-retaliating-against-donald-trumps-tariffs-13327240">Will Starmer reap the rewards of not retaliating against Trump's tariffs?</a>
+            <p>Sky News | <span class="category">Politics</span></p>
+        </div>
+
+        <div class="news-item">
+            <img src="skynews-king-charles.jpg" alt="News Image">
+            <a href="https://news.sky.com/story/king-charles-reveals-his-favourite-artists-as-he-shares-personal-playlist-13322845">King Charles reveals favourite music - including Bob Marley, Kylie and Davido</a>
+            <p>Sky News | <span class="category">UK</span></p>
+        </div>
+            
+        <div class="news-item">
+            <img src="skysports-premier-league.jpg" alt="News Image">
+            <a href="https://news.sky.com/story/king-charles-reveals-his-favourite-artists-as-he-shares-personal-playlist-13322845">How Premier League could have 11 teams in European competition next season</a>
+            <p>Sky News | <span class="category">Football</span></p>
+        </div>
+    </div>
+
+        <hr>
+
+        <section>
+        <div class="faq-container" id="faq-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">What is Veriscope and how does it work?</button>
+                <div class="faq-answer">Veriscope is a platform that helps detect false information using advanced AI-driven technology to verify online content like videos, pictures, texts, etc.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How does Veriscope verify content?</button>
+                <div class="faq-answer">Veriscope uses sophisticated AI algorithms to analyze content from various sources. Our platform cross-references texts, images, and videos with trusted fact-checkers, and verified sources. The AI checks for inconsistencies, manipulations, and other markers of false or misleading information, ensuring that only verified facts are presented to our users.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is Veriscope free to use?</button>
+                <div class="faq-answer">Yes, Veriscope is free to use! Our goal is to provide accessible, reliable information to everyone. While certain advanced features may require a subscription, the core functionality of verifying content is available to all users at no cost.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Who are Veriscope's partners?</button>
+                <div class="faq-answer">Veriscope collaborates with a range of trusted sources to provide accurate, verified information. Some of our key partners include leading news outlets like the BBC, Sky News, Daily Mail, Fox News, and CNN, as well as independent fact-checking organizations. This collaboration ensures transparency and credibility in the content we provide.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How can I stay updated on new developments with Veriscope?</button>
+                <div class="faq-answer">To stay updated on the latest features, news, and insights from Veriscope, you can subscribe to our newsletter, follow us on social media, or check our blog regularly. We’re always working on new ways to improve the platform and bring you the most accurate information possible.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is Veriscope safe to use?</button>
+                <div class="faq-answer">Yes, Veriscope is completely safe to use. We prioritize user privacy and data protection, ensuring that your information is secure. We do not collect personal data unless required for the platform’s functionality, and we are committed to safeguarding your online experience.
+
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <br>
+        <hr>
+
+        <section>
+        <div class="cta">
+            <h3>SEE WHAT OTHERS<br> HAVE SAID</h3>
+        </div>
+        <div class="slideshow-container">
+            <div class="slide">
+                <p>"I'm truly impressed by the quality, accuracy, speed!"</p>
+                <br>
+                <p>- Gideon</p>
+            </div>
+
+            <div class="slide">
+                <p>"Veriscope is the best fact-checker platform ever created!"</p>
+                <br>
+                <p>- Paula</p>
+            </div>
+
+            <div class="slide">
+                <p>"Very accurate!"</p>
+                <br>
+                <p>- Andorra</p>
+            </div>
+
+            <div class="slide">
+                <p>"Wow, just wow!"</p>
+                <br>
+                <p>- Adam</p>
+            </div>
+
+            <div class="slide">
+                <p>"i used it to scan a video online, and the result was accurate!"</p>
+                <br>
+                <p>- Eman</p>
+            </div>
+
+            <div class="slide">
+                <p>"Cool!"</p>
+                <br>
+                <p>- Bryan</p>
+            </div>
+
+            <div class="slide">
+                <p>"Easy to navigate, nice UX!"</p>
+                <br>
+                <p>- Ola</p>
+            </div>
+
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        </section>
+
+        <br><br>
+        <hr>
+
+        <section class="sponsors" id="sponsors">
+            <h2><u>OUR PARTNERS</u></h2>
+            <div class="sponsor-logos">
+                <a href="https://www.bbc.co.uk/news"><img src="sponsor bbc.png" alt="BBC News"></a>
+                <a href="https://news.sky.com/"><img src="skynews.png" alt="Daily Mail"></a>
+                <a href="https://barkingdagenhamcollege.ac.uk/"><img src="logo-bdc.png" alt="BDC"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Product</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#solutions">Blogs</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#become-partner">Become a Partner</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                </ul>
+            </div>
+            
+            
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms & Conditions</a></li>
+                    <li><a href="#report">Report Abuse</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="#twitter" class="social-icon">𝕏</a>
+                <a href="#linkedin" class="social-icon">in</a>
+                <a href="#discord" class="social-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src= "script.js"></script>
+
+    
+</body>
+</html>
